@@ -1,0 +1,8 @@
+body div {
+  height: 100px;
+  width: 100px;
+  background-color: #f938ab;
+}
+body div::before {
+  content: "My little gulp playground.";
+}

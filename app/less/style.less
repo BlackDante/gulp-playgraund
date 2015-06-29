@@ -1,0 +1,15 @@
+@color: #f938ab;
+@height: 100px;
+@width: 100px;
+
+body {
+  div {
+    height: @height;
+    width: @width;
+    background-color: @color;
+
+    &::before {
+      content: "My little gulp playground.";
+    }
+  }
+}
